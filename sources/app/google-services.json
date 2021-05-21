@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "498539970784",
+    "project_id": "ratingapp-db85b",
+    "storage_bucket": "ratingapp-db85b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498539970784:android:9c12de436aedfcc9805085",
+        "android_client_info": {
+          "package_name": "com.dicoding.ratingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498539970784-qrnb0g1vdputqsahnaqu49it3gteptk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwr0wHz2roeDPsxKUdy3qUiiY5zIKaCks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498539970784-qrnb0g1vdputqsahnaqu49it3gteptk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
