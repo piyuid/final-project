@@ -34,6 +34,10 @@ class LoginActivity : AppCompatActivity() {
                 etEmail.requestFocus()
                 return@setOnClickListener
             }
+<<<<<<< HEAD
+=======
+            // Test line
+>>>>>>> 4739b530070a22d29ffc75e3ef80448df1fb7bf7
             if (password.isEmpty() || password.length < 8) {
                 etEmail.error = "Password harus diisi lebih drai 8 karakter ngab"
                 etEmail.requestFocus()
