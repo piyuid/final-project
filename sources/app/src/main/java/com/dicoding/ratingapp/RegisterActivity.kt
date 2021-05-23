@@ -21,7 +21,7 @@ class RegisterActivity : AppCompatActivity() {
             val password = etPassword.text.toString().trim()
 
             if (email.isEmpty()){
-                etEmail.error = "Email harus diisi ngab"
+                etEmail.error = "Email harus diisi"
                 etEmail.requestFocus()
                 return@setOnClickListener
             }
@@ -31,7 +31,7 @@ class RegisterActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
             if(password.isEmpty() || password.length < 8){
-                etEmail.error = "Password harus diisi lebih drai 8 karakter ngab"
+                etEmail.error = "Password harus diisi lebih dari 8 karakter"
                 etEmail.requestFocus()
                 return@setOnClickListener
             }

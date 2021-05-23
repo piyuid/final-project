@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">RatingApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="masukkan_password_anda">Masukkan Password Anda</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="masukkan_email_baru">Masukkan Email Baru</string>
+    <string name="new_email">New Email</string>
+    <string name="update">Update</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="save">Save</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_login_here">Already have an account login here</string>
+    <string name="login">Login</string>
+    <string name="register">REGISTER</string>
 </resources>
