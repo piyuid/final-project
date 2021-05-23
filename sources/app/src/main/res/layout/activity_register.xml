@@ -24,7 +24,6 @@
             android:layout_height="match_parent">
 
             <EditText
-
                 android:id="@+id/etEmail"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -32,7 +31,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:ems="10"
-                android:hint="Email"
+                android:hint="@string/email"
                 android:inputType="textEmailAddress"
                 android:textColor="@color/Accent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Register"
+                android:text="@string/register"
                 android:textColor="@color/PrimaryDark"
                 android:textSize="24sp"
                 android:textStyle="bold"
@@ -59,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:ems="10"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:inputType="textPassword"
                 app:layout_constraintEnd_toEndOf="@+id/etEmail"
                 app:layout_constraintStart_toStartOf="@+id/etEmail"
@@ -70,7 +69,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Forgot password?"
+                android:text="@string/forgot_password"
                 app:layout_constraintEnd_toEndOf="@+id/etPassword"
                 app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
@@ -80,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:background="@color/Primary"
-                android:text="Sign Up"
+                android:text="@string/sign_up"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/etPassword"
@@ -94,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:background="@color/warna1"
-                android:text="Already have an account login here"
+                android:text="@string/already_have_an_account_login_here"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/btnSignUp"

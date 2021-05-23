@@ -25,7 +25,7 @@ class LoginActivity : AppCompatActivity() {
             val password = etPassword.text.toString().trim()
 
             if (email.isEmpty()) {
-                etEmail.error = "Email harus diisi ngab"
+                etEmail.error = "Email harus diisi"
                 etEmail.requestFocus()
                 return@setOnClickListener
             }
@@ -34,37 +34,50 @@ class LoginActivity : AppCompatActivity() {
                 etEmail.requestFocus()
                 return@setOnClickListener
             }
-<<<<<<< HEAD
-=======
-            // Test line
->>>>>>> 4739b530070a22d29ffc75e3ef80448df1fb7bf7
             if (password.isEmpty() || password.length < 8) {
-                etEmail.error = "Password harus diisi lebih drai 8 karakter ngab"
+                etEmail.error = "Password harus diisi lebih dari 8 karakter"
                 etEmail.requestFocus()
                 return@setOnClickListener
             }
             loginUser(email, password)
         }
+
         btnRegister.setOnClickListener {
             Intent(this@LoginActivity, RegisterActivity::class.java).also {
+                startActivity(it)
+            }
+        }
+
+        btnForgotPassword.setOnClickListener {
+            Intent(this@LoginActivity, ResetPasswordActivity::class.java).also{
                 startActivity(it)
             }
         }
     }
 
     private fun loginUser(email: String, password: String) {
-    auth.signInWithEmailAndPassword(email, password)
-            .addOnCompleteListener(this){
-                if(it.isSuccessful){
-                    Intent(this@LoginActivity, HomeActivity::class.java).also {
-                        it.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-                        startActivity(it)
+        auth.signInWithEmailAndPassword(email, password)
+            .addOnCompleteListener(this) {
+                if (it.isSuccessful) {
+                    Intent(this@LoginActivity, HomeActivity::class.java).also { intent ->
+                        intent.flags =
+                            Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                        startActivity(intent)
                     }
-                } else{
-                    Toast.makeText(this,"${it.exception?.message}", Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(this, "${it.exception?.message}", Toast.LENGTH_SHORT).show()
                 }
             }
     }
 
+    override fun onStart() {
+        super.onStart()
+        if (auth.currentUser != null) {
+            Intent(this@LoginActivity, HomeActivity::class.java).also { intent ->
+                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                startActivity(intent)
+            }
+        }
     }
+}
 
