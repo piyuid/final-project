@@ -20,4 +20,10 @@
     <string name="already_have_an_account_login_here">Already have an account login here</string>
     <string name="login">Login</string>
     <string name="register">REGISTER</string>
+    <string name="Pekerjaan">Pekerjaan</string>
+    <string name="Agama">Agama</string>
+    <string name="StatusPerkawinan">Status Perkawinan</string>
+    <string name="Alamat">Alamat</string>
+    <string name="JenisKelamin">Jenis Kelamin</string>
+    <string name="search">Cari</string>
 </resources>

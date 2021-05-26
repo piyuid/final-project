@@ -21,6 +21,12 @@ class LoginActivity : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
 
         btnLogin.setOnClickListener {
+
+            /**
+            val home = Intent(activity,HomeActivity::class.java)
+            startActivity(home)
+            activity?.finish()*/
+
             val email = etEmail.text.toString().trim()
             val password = etPassword.text.toString().trim()
 
