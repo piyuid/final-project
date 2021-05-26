@@ -26,4 +26,6 @@
     <string name="Alamat">Alamat</string>
     <string name="JenisKelamin">Jenis Kelamin</string>
     <string name="search">Cari</string>
+    <string name="Publik">Aplikasi Rating Publik</string>
+    <string name="Rating">RatingSystem</string>
 </resources>
