@@ -44,4 +44,6 @@
             app:popUpTo="@id/nav_profile"
             app:popUpToInclusive="true" />
     </fragment>
+
+
 </navigation>

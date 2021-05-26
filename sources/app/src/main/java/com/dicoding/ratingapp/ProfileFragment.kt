@@ -85,6 +85,45 @@ class ProfileFragment : Fragment() {
                 etName.requestFocus()
                 return@setOnClickListener
             }
+            val jeniskelamin = etJenisKelamin.text.toString().trim()
+
+            if(jeniskelamin.isEmpty()){
+                etJenisKelamin.error = "harus diisi"
+                etJenisKelamin.requestFocus()
+                return@setOnClickListener
+            }
+
+            val pekerjaan = etJenisKelamin.text.toString().trim()
+
+            if(pekerjaan.isEmpty()){
+                etPekerjaan.error = "harus diisi"
+                etPekerjaan.requestFocus()
+                return@setOnClickListener
+            }
+
+            val statusperkawinan = etAgama.text.toString().trim()
+
+            if(statusperkawinan.isEmpty()){
+                etStatusPerkawinan.error = "harus diisi"
+                etStatusPerkawinan.requestFocus()
+                return@setOnClickListener
+            }
+
+            val alamat = etAlamat.text.toString().trim()
+
+            if(alamat.isEmpty()){
+                etAlamat.error = "harus diisi"
+                etAlamat.requestFocus()
+                return@setOnClickListener
+            }
+            val agama = etAgama.text.toString().trim()
+
+            if(agama.isEmpty()){
+                etAgama.error = "harus diisi"
+                etAgama.requestFocus()
+                return@setOnClickListener
+            }
+
 
             UserProfileChangeRequest.Builder()
                 .setDisplayName(name)
