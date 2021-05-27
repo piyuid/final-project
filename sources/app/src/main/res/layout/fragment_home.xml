@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
-        android:text="RatingSystem"
+        android:text="@string/Rating"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="30dp"
-        android:text="Aplikasi Rating Publik"
+        android:text="@string/Publik"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/tvTitle" />
@@ -58,27 +58,28 @@
       />
 
   <androidx.coordinatorlayout.widget.CoordinatorLayout
-    android:layout_marginTop="24dp"
-    android:theme="@style/AppTheme.AppBarOverlay"
+      android:layout_marginTop="24dp"
+      android:theme="@style/AppTheme.AppBarOverlay"
       android:layout_width="match_parent"
       android:layout_height="match_parent">
 
     <com.google.android.material.appbar.AppBarLayout
-        android:background="#fff"
+        android:background="#FFF"
         android:theme="@style/AppTheme.AppBarOverlay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
       <com.google.android.material.tabs.TabLayout
-          android:id="@+id/tablayout"
-          android:background="#fff"
+          android:id="@+id/tabLayout"
+          android:background="#FFF"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           app:tabIndicatorFullWidth="false"
           app:tabMode="scrollable"
           app:tabSelectedTextColor="#020202"
-          app:tabIndicator="#020202"
-          app:tabTextAppearance="@style/Tab" />
+          app:tabIndicatorColor="#020202"
+          app:tabTextAppearance="@style/Tab"/>
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.viewpager.widget.ViewPager
