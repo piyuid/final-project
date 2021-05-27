@@ -1,43 +1,39 @@
-package com.dicoding.ratingapp
+package com.dicoding.ratingapp.home.populer
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.dicoding.ratingapp.R
 import com.dicoding.ratingapp.home.HomeAdapter
-import com.dicoding.ratingapp.home.SectionPagerAdapter
 import com.dicoding.ratingapp.model.dummy.HomeModel
 import kotlinx.android.synthetic.main.fragment_home.*
 
 
-class HomeFragment : Fragment(),HomeAdapter.ItemAdapterCallback {
+class HomePopulerFragment : Fragment(),HomePopulerAdapter.ItemAdapterCallback {
 
-    private var publiklist : ArrayList<HomeModel> = ArrayList()
+    private  var publiklist : ArrayList<HomeModel> = ArrayList()
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        return inflater.inflate(R.layout.fragment_home_populer, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
         initDataDummy()
-        val adapter = HomeAdapter(publiklist,this)
-        val layoutManager: RecyclerView.LayoutManager = LinearLayoutManager(context,LinearLayoutManager.HORIZONTAL,false)
+        var adapter = HomePopulerAdapter(publiklist, this)
+        var layoutManager: RecyclerView.LayoutManager = LinearLayoutManager(activity)
         rcList.layoutManager = layoutManager
         rcList.adapter = adapter
-
-        val sectionPagerAdapter = SectionPagerAdapter (
-            childFragmentManager
-        )
-        viewPager.adapter = sectionPagerAdapter
-        tabLayout.setupWithViewPager(viewPager)
     }
 
     fun initDataDummy() {
@@ -47,6 +43,7 @@ class HomeFragment : Fragment(),HomeAdapter.ItemAdapterCallback {
         publiklist.add(HomeModel("KelurahanC","",3.5f))}
 
     override fun onClick(v: View, data: HomeModel) {
-        TODO("Not yet implemented")
+        Toast.makeText(context, "percobaan klik"+ data.title, Toast.LENGTH_SHORT).show()
     }
+
 }
