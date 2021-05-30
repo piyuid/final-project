@@ -1,0 +1,27 @@
+{
+  "name": "Deploy Server",
+  "description": "Deploy Server.",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "CAP0167",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piyuid/final-project.git"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --exit test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "gcp-metadata": "^4.1.0",
+    "google-auth-library": "^7.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.0",
+    "supertest": "^6.0.0"
+  }
+}

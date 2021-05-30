@@ -1,0 +1,22 @@
+{
+  "name": "session-handling",
+  "private": true,
+  "description": "Session Handling via Firestore Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --exit **/*.test.js"
+  },
+  "author": "Google Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@google-cloud/connect-firestore": "^2.0.0",
+    "@google-cloud/firestore": "^4.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.0",
+    "supertest": "^6.0.0"
+  }
+}
