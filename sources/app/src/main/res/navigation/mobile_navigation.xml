@@ -44,6 +44,11 @@
             app:popUpTo="@id/nav_profile"
             app:popUpToInclusive="true" />
     </fragment>
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.dicoding.ratingapp.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
 
 
 </navigation>
