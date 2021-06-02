@@ -1,6 +1,0 @@
-{
-    "keyid": "int",
-    "name_user": "string",
-    "ktp_user": "int",
-    "address_user": "text"
-}
