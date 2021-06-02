@@ -1,8 +1,8 @@
 {
   "name": "api-final-project",
   "version": "1.0.0",
-  "description": "Deploy API Final Project Rating System",
-  "main": "index.js",
+  "description": "Repository API Final Project CAP0167",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,24 +11,16 @@
     "url": "git+https://github.com/piyuid/final-project.git"
   },
   "keywords": [
-    "rating",
-    "system",
-    "final",
-    "project",
-    "bangkit"
+    "Api",
+    "Final",
+    "Project",
+    "Rating",
+    "System"
   ],
   "author": "B21-CAP0167",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/piyuid/final-project/issues"
   },
-  "homepage": "https://github.com/piyuid/final-project#readme",
-  "dependencies": {
-    "@hapi/hapi": "^20.1.3",
-    "eslint": "^7.27.0",
-    "express": "^4.17.1",
-    "moment": "^2.29.1",
-    "nanoid": "^3.1.23",
-    "nodemon": "^2.0.7"
-  }
+  "homepage": "https://github.com/piyuid/final-project#readme"
 }

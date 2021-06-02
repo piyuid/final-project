@@ -1,0 +1,6 @@
+# ignore generated rar/zip files
+*.rar
+*.zip
+
+# ignore generated modul node
+node_modules
