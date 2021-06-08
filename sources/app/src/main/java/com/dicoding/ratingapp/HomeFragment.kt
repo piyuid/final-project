@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.dicoding.ratingapp.home.HomeAdapter
@@ -47,6 +48,6 @@ class HomeFragment : Fragment(),HomeAdapter.ItemAdapterCallback {
         publiklist.add(HomeModel("KelurahanC","",3.5f))}
 
     override fun onClick(v: View, data: HomeModel) {
-        TODO("Not yet implemented")
+        Toast.makeText(context, "Percobaan Klik" + data.title, Toast.LENGTH_SHORT).show()
     }
 }

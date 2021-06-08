@@ -71,6 +71,7 @@
                 android:layout_marginTop="8dp"
                 android:ems="10"
                 android:inputType="phone"
+                android:focusableInTouchMode="false"
                 android:hint="@string/phone"
                 app:layout_constraintEnd_toEndOf="@+id/etName"
                 app:layout_constraintStart_toStartOf="@+id/etEmail"
@@ -82,6 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:ems="10"
+                android:focusableInTouchMode="false"
                 android:hint="@string/JenisKelamin"
                 app:layout_constraintEnd_toEndOf="@+id/etPhone"
                 app:layout_constraintStart_toStartOf="@+id/etPhone"
@@ -94,6 +96,7 @@
                 android:layout_marginTop="8dp"
                 android:ems="10"
                 android:hint="@string/Pekerjaan"
+                android:focusableInTouchMode="false"
                 app:layout_constraintEnd_toEndOf="@+id/etJenisKelamin"
                 app:layout_constraintStart_toStartOf="@+id/etJenisKelamin"
                 app:layout_constraintTop_toBottomOf="@+id/etJenisKelamin" />
@@ -105,6 +108,7 @@
                 android:layout_marginTop="8dp"
                 android:ems="10"
                 android:hint="@string/Agama"
+                android:focusableInTouchMode="false"
                 app:layout_constraintEnd_toEndOf="@+id/etPekerjaan"
                 app:layout_constraintStart_toStartOf="@+id/etPekerjaan"
                 app:layout_constraintTop_toBottomOf="@+id/etPekerjaan" />
@@ -116,6 +120,7 @@
                 android:layout_marginTop="8dp"
                 android:ems="10"
                 android:hint="@string/StatusPerkawinan"
+                android:focusableInTouchMode="false"
                 app:layout_constraintEnd_toEndOf="@+id/etAgama"
                 app:layout_constraintStart_toStartOf="@+id/etAgama"
                 app:layout_constraintTop_toBottomOf="@+id/etAgama" />
@@ -127,6 +132,7 @@
                 android:layout_marginTop="8dp"
                 android:ems="10"
                 android:hint="@string/Alamat"
+                android:focusableInTouchMode="false"
                 app:layout_constraintEnd_toEndOf="@+id/etStatusPerkawinan"
                 app:layout_constraintStart_toStartOf="@+id/etStatusPerkawinan"
                 app:layout_constraintTop_toBottomOf="@+id/etStatusPerkawinan" />

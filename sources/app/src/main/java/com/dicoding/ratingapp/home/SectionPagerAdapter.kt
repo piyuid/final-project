@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentPagerAdapter
 import com.dicoding.ratingapp.home.populer.HomePopulerFragment
 import com.dicoding.ratingapp.home.rekomendasi.HomeRekomendasiFragment
 
+@Suppress("DEPRECATION")
 class SectionPagerAdapter(fm:FragmentManager) : FragmentPagerAdapter(fm) {
 
     override fun getPageTitle(position: Int): CharSequence? {

@@ -5,5 +5,6 @@
         android:id="@+id/logout"
         android:title="@string/logout"
         android:icon="@drawable/baseline_logout_24"
-        app:showAsAction="collapseActionView|always"/>
+        app:showAsAction="collapseActionView|always"
+        />
 </menu>
