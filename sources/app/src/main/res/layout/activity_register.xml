@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterActivity"
-    android:background="@color/Primary">
+    android:background="@color/red">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -13,6 +13,7 @@
         android:layout_height="320dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
+        app:cardBackgroundColor="@color/red1"
         app:cardCornerRadius="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
