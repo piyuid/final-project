@@ -1,10 +1,6 @@
 # [Bangkit 2021](https://bangkit.academy "Bangkit Site") -  Final Project "*Public Services*"🤵
 
-![final-project](https://img.shields.io/github/forks/piyuid/final-project?style=social) ![leo](https://img.shields.io/github/stars/piyuid/final-project?style=social) ![final-project](https://img.shields.io/github/license/piyuid/final-project?style=social) ![final-project](https://img.shields.io/github/contributors/piyuid/final-project?style=social) ![final-project](https://img.shields.io/github/last-commit/piyuid/final-project/main?style=social) ![final-project](https://img.shields.io/github/v/release/piyuid/final-project?include_prereleases&style=social)
-
-**table content**
-
-[TOC]
+![final-project](https://img.shields.io/github/forks/piyuid/final-project) ![final-project](https://img.shields.io/github/stars/piyuid/final-project) ![final-project](https://img.shields.io/github/license/piyuid/final-project) ![final-project](https://img.shields.io/github/contributors/piyuid/final-project?style=social) ![final-project](https://img.shields.io/github/v/release/piyuid/final-project?color=red&include_prereleases&logo=red) ![final-project](https://img.shields.io/github/last-commit/piyuid/final-project/main?style=social)
 
 > Introducing, we are 6 students [Bangkit](https://bangkit.academy "Bangkit Site") (call BrainID) who are joined to complete the final project in Bangkit 2021. At a glance, our team has an interest in the IT field. [readmore](https://github.com/piyuid/final-project/wiki/Project-Overview#greetings-from-brainid)
 
