@@ -10,11 +10,7 @@ import com.dicoding.ratingapp.model.dummy.HomeModel
 import kotlinx.android.synthetic.main.item_home_vertical.view.*
 
 
-class HomePopulerAdapter (
-        private val listData : List<HomeModel>,
-        private val itemAdapterCallback : ItemAdapterCallback
-) : RecyclerView.Adapter<HomePopulerAdapter.ViewHolder>()
-{
+class HomePopulerAdapter (private val listData : List<HomeModel>, private val itemAdapterCallback : ItemAdapterCallback) : RecyclerView.Adapter<HomePopulerAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomePopulerAdapter.ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
         val view = layoutInflater.inflate(R.layout.item_home_vertical, parent, false)
