@@ -58,10 +58,11 @@
                 android:ems="10"
                 android:focusableInTouchMode="false"
                 android:inputType="textEmailAddress"
-                android:text="@string/email"
+                android:hint="@string/email"
                 app:layout_constraintEnd_toEndOf="@+id/etName"
                 app:layout_constraintStart_toStartOf="@+id/etName"
-                app:layout_constraintTop_toBottomOf="@+id/etName" />
+                app:layout_constraintTop_toBottomOf="@+id/etName"
+                android:autofillHints="" />
 
             <EditText
                 android:id="@+id/etPhone"
@@ -69,9 +70,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:ems="10"
-                android:focusableInTouchMode="false"
                 android:inputType="phone"
-                android:text="@string/phone"
+                android:hint="@string/phone"
                 app:layout_constraintEnd_toEndOf="@+id/etName"
                 app:layout_constraintStart_toStartOf="@+id/etEmail"
                 app:layout_constraintTop_toBottomOf="@+id/etEmail" />
@@ -82,8 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:ems="10"
-                android:focusableInTouchMode="false"
-                android:text="@string/JenisKelamin"
+                android:hint="@string/JenisKelamin"
                 app:layout_constraintEnd_toEndOf="@+id/etPhone"
                 app:layout_constraintStart_toStartOf="@+id/etPhone"
                 app:layout_constraintTop_toBottomOf="@+id/etPhone" />
@@ -94,8 +93,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:ems="10"
-                android:focusableInTouchMode="false"
-                android:text="@string/Pekerjaan"
+                android:hint="@string/Pekerjaan"
                 app:layout_constraintEnd_toEndOf="@+id/etJenisKelamin"
                 app:layout_constraintStart_toStartOf="@+id/etJenisKelamin"
                 app:layout_constraintTop_toBottomOf="@+id/etJenisKelamin" />
@@ -106,8 +104,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:ems="10"
-                android:focusableInTouchMode="false"
-                android:text="@string/Agama"
+                android:hint="@string/Agama"
                 app:layout_constraintEnd_toEndOf="@+id/etPekerjaan"
                 app:layout_constraintStart_toStartOf="@+id/etPekerjaan"
                 app:layout_constraintTop_toBottomOf="@+id/etPekerjaan" />
@@ -118,8 +115,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:ems="10"
-                android:focusableInTouchMode="false"
-                android:text="@string/StatusPerkawinan"
+                android:hint="@string/StatusPerkawinan"
                 app:layout_constraintEnd_toEndOf="@+id/etAgama"
                 app:layout_constraintStart_toStartOf="@+id/etAgama"
                 app:layout_constraintTop_toBottomOf="@+id/etAgama" />
@@ -130,8 +126,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:ems="10"
-                android:focusableInTouchMode="false"
-                android:text="@string/Alamat"
+                android:hint="@string/Alamat"
                 app:layout_constraintEnd_toEndOf="@+id/etStatusPerkawinan"
                 app:layout_constraintStart_toStartOf="@+id/etStatusPerkawinan"
                 app:layout_constraintTop_toBottomOf="@+id/etStatusPerkawinan" />
@@ -155,7 +150,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_baseline_verified_user_24"
-
                 android:visibility="invisible"
                 app:layout_constraintBottom_toBottomOf="@+id/etEmail"
                 app:layout_constraintEnd_toEndOf="@+id/etName"

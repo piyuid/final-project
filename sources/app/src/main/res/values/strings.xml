@@ -25,6 +25,13 @@
     <string name="Alamat">Alamat</string>
     <string name="JenisKelamin">Jenis Kelamin</string>
     <string name="search">Cari</string>
-    <string name="Publik">Aplikasi Rating Publik</string>
+    <string name="Publik">SuaraNusantara</string>
     <string name="Rating">RatingSystem</string>
+    <string name="id">9101012504000006</string>
+    <string name="user_name">KelurahanA</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Jam">Jam Buka</string>
+    <string name="waktu">7 pagi - 5 sore</string>
 </resources>

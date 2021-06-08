@@ -4,6 +4,6 @@
     <item
         android:id="@+id/logout"
         android:title="@string/logout"
-        android:icon="@drawable/ic_baseline_login_24"
+        android:icon="@drawable/baseline_logout_24"
         app:showAsAction="collapseActionView|always"/>
 </menu>

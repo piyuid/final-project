@@ -7,8 +7,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.dicoding.ratingapp.R
 import com.dicoding.ratingapp.model.dummy.HomeModel
-import kotlinx.android.synthetic.main.fragment_home.view.*
-import kotlinx.android.synthetic.main.fragment_home.view.tvTitle
 import kotlinx.android.synthetic.main.item_home_horizontal.view.*
 
 class HomeAdapter (

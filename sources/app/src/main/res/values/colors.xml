@@ -7,8 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#962d2d </color>
+    <color name="red1">#630000</color>
     <color name="Primary">#907fa4</color>
     <color name="PrimaryDark">#a58faa</color>
     <color name="Accent">#a6d6d6</color>
     <color name="warna1">#94d0cc</color>
+    <color name="abu1">#424642</color>
+    <color name="Rating">#e5d549</color>
 </resources>
