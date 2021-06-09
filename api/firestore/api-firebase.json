@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "427011668659",
-    "firebase_url": "https://final-project-rating-system-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_number": "isi project number nya",
+    "firebase_url": "Firebase URL nya isi disini",
     "project_id": "final-project-rating-system",
-    "storage_bucket": "final-project-rating-system.appspot.com"
+    "storage_bucket": "Link Storage bucket nya"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:427011668659:android:03a391a322c8b1fbbc8ec6",
+        "mobilesdk_app_id": " Isi App ID nya ",
         "android_client_info": {
           "package_name": "com.dicoding.ratingapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "427011668659-knd5kd65p5n2ajmpuqra9ugvdmeocsi0.apps.googleusercontent.com",
+          "client_id": "Isi Client ID nya",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC0JqENfjBD3Q-nQi9QC8lLhirRGovIPJc"
+          "current_key": "API Key public nyaa"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "427011668659-knd5kd65p5n2ajmpuqra9ugvdmeocsi0.apps.googleusercontent.com",
+              "client_id": "Client API Auth service nya",
               "client_type": 3
             }
           ]
