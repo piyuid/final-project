@@ -1,0 +1,25 @@
+{
+  "name": "firestore-final-project",
+  "version": "1.0.0",
+  "description": "API Firestore Final Project CAP0167",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyuid/final-project.git"
+  },
+  "keywords": [
+    "firestore",
+    "bangkit",
+    "final",
+    "project"
+  ],
+  "author": "B21-CAP0167",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyuid/final-project/issues"
+  },
+  "homepage": "https://github.com/piyuid/final-project#readme"
+}
