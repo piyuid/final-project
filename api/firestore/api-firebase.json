@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "427011668659",
+    "firebase_url": "https://final-project-rating-system-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "final-project-rating-system",
+    "storage_bucket": "final-project-rating-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427011668659:android:03a391a322c8b1fbbc8ec6",
+        "android_client_info": {
+          "package_name": "com.dicoding.ratingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427011668659-knd5kd65p5n2ajmpuqra9ugvdmeocsi0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0JqENfjBD3Q-nQi9QC8lLhirRGovIPJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427011668659-knd5kd65p5n2ajmpuqra9ugvdmeocsi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
